@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:linear-gradient(#eceffe,#ced6fb);
+}
+
+.card-list .card-item .card-link{
+    width: 400px;
+    display: block;
+    background:#fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0px 10px 10px  #00000005;
+    transition: 0.2 ease;
+    
+}
+.card-list .card-item{
+    list-style: none;
+}
+.card-list .card-item .card-link:hover {
+    border-color:#5372f0
+}
+.card-list .card-link .card-image{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.card-list .card-link .badge{
+    color: #5372f0;
+    font-size:1rem;
+    font-weight: 500;
+    padding:8px 16px;
+    margin:16px 0 18px ;
+    background: #DDe4ff;
+    width: fit-content;
+    border-radius: 20px;
+
+}
+
+/* .card-list .card-link .badge.values{
+    color:#b25a2b ;
+    background-color:#d6f8d6 ;
+}
+.card-list .card-link .badge.mission{
+    color: ;
+    background-color: ;
+}
+.card-list .card-link .badge.vision{
+    color: ;
+    background-color: ;} */
+
+
+.card-list .card-link .card-title{
+    font-size: 1.19rem;
+    color: #000;
+    font-weight: 600;
+    border-radius: 50px;
+    background: #dde4ff;
+    width: fit-content;
+
+}
+
+.card-list .card-link .card-button{
+    height:35px ;
+    width:35px ;
+    border-radius: 50%;
+    color:#5372f0 ;
+    margin: 30px 0 5px;
+    cursor: pointer;
+    border: 2px solid #5372f0;
+    /* transform: rotate(-180deg); */
+    /* transition:0.4s ease; */
+}
+
+.card-list .card-link:hover .card-button{
+    color:#fff;
+    background: #5372f0;
+}
