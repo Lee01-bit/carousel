@@ -5,12 +5,12 @@ arrowIcons = document.querySelectorAll(".wrapper i");
 
 
 let isDragStart = false , prevPageX , prevScrollLeft, positionDiff;
-// let firstImgWidth = firstImg.clientWidth + 14;
+let firstImgWidth = firstImg.clientWidth + 14;
 
 
 arrowIcons.forEach(icon => {
     icon.addEventListener("click" , function(){
-    //    carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth
+       carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth
     })
 })
 

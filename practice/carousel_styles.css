@@ -54,16 +54,16 @@ body{
     cursor: grab;
     scroll-behavior: auto;
 }
-/* .carousel.dragging img{
+.carousel.dragging img{
     pointer-events: none;
-} */
-.img{
-    /* height: 340px; */
+} 
+.carousel img{
+    height: 200px;
     border: 2px solid black;
-    /* object-fit: cover; */
-    /* margin-left: 14px; */
-    /* width: calc(100% / 3); */
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
 }
-/* .carousel img:first-child{
+.carousel img:first-child{
     margin-left: 0px;
-} */
+} 
